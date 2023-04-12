@@ -3,6 +3,7 @@
         <h5>{{blogExample[id].title}}</h5>
         <p>{{ blogExample[id].date }}</p>
         <p>{{blogExample[id].content}}</p>
+        <router-view></router-view>
     </div>
 </template>
 
